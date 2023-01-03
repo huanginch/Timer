@@ -1,0 +1,16 @@
+---
+title: Timer
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<section class="mb-5 text-center flex flex-col items-center justify-center h-screen">
+    <h1 class="font-bold text-5xl mb-5">計時器</h1>
+    <div id="time" class="text-8xl mb-3"></div>
+    <div>
+        <button class="mr-5 border border-orange-200 bg-amber-200 rounded-md text-2xl py-3 px-5 hover:bg-amber-400 focus:bg-yellow-400" id="startBtn">開始</button>
+        <button class="mr-3 border border-orange-200 bg-amber-200 rounded-md text-2xl py-3 px-5 hover:bg-amber-400 focus:bg-yellow-400" id="pauseBtn">暫停</button>
+        <button class="border border-orange-200 bg-amber-200 rounded-md text-2xl py-3 px-5 hover:bg-amber-400 focus:bg-yellow-400" id="restartBtn">重新計時</button>
+    </div>
+</section>
