@@ -1,10 +1,20 @@
----
-title: Timer
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Timer</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body class="text-center">
+  <header class="header">
+    
+  </header>
+
+  
 <section class="mb-5 text-center flex flex-col items-center justify-center h-screen">
     <h1 class="font-bold text-5xl mb-5">計時器</h1>
     <div id="time" class="text-8xl mb-3"></div>
@@ -14,3 +24,12 @@ current: index
         <button class="border border-orange-200 bg-amber-200 rounded-md text-2xl py-3 px-5 hover:bg-amber-400 focus:bg-yellow-400" id="restartBtn">重新計時</button>
     </div>
 </section>
+
+  <footer class="footer mt-auto bg-slate-400 w-full py-2">
+    copyright@int 2020
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
